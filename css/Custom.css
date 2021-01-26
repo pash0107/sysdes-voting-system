@@ -1,0 +1,80 @@
+/**CSS**/
+@import "css/bootstrap.css";
+body{
+	background-color: #c8c8c8;
+}
+h1,h2,h4,h5,h6{
+	font-family: Estrangelo Edessa;
+	text-align: center;
+}
+
+.panel-header{
+	font-family: Estrangelo Edessa;
+}
+
+
+.panel-body{
+	background-color: #f8f8f8;
+}
+.panel-default>.panel-heading {
+	color: #fff;
+	background-color: #0c3067;
+}
+.panel-footer{
+	text-align: center;
+}
+.panel-default>.panel-heading1{
+	height: 40px;
+	color: #fff;
+	background-color: #0c3067;
+}
+
+.panel-heading3{
+	height: 40px;
+	color: #fff;
+	background-color: #0c3067;
+}
+
+
+
+.panel-default>.panel-heading2 {
+	height: 30px;
+	color: #fff;
+	background-color: #0c3067;
+}	
+
+label
+{
+	cursor: pointer;
+}
+input[type="checkbox"]
+{
+	display: none;
+}
+input[type='checkbox'] + label:before
+{
+	background-color: white;
+	border: 1px solid #ccc;
+	content:"";
+	display: inline-block;
+	font-size: 12px;
+	height: 16px;
+	width: 16px;
+	line-height: 16px;
+	margin: -2px 10px 0 0;
+	vertical-align: middle;
+}
+
+input[type='checkbox']:checked + label:before
+{
+	content: "\2713";
+}
+.logo
+{						/*Logo Layout*/
+	padding:0 0 0 40px;
+	display:inline-block;
+	float:left;
+	position:relative;
+	font-family:'Lato', sans-serif;
+	font-size:20px;
+}
